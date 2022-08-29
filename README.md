@@ -1,5 +1,5 @@
 # SQL Utils
-A selection of utility classes that make it easier to collect the result of an execution of a 
+A selection of utility classes that make it easier to collect the result of an execution of a
 [PreparedStatement](https://docs.oracle.com/javase/7/docs/api/java/sql/PreparedStatement.html).
 The database object types are automatically converted to their corresponding Java Objects and their
 type is preserved in [SelectResult](src/main/java/com/kmarinos/sqlutils/sql/SelectResult.java).
@@ -26,6 +26,7 @@ For all the examples the following table was created in the database
 |     8     |  "Airport Pollock"   |      2006      |       15.99        |  "2013-05-26 14:50:58.951"  |
 |     9     |   "Alabama Devil"    |      2006      |       21.99        |  "2013-05-26 14:50:58.951"  |
 |    10     |  "Aladdin Calendar"  |      2006      |       24.99        |  "2013-05-26 14:50:58.951"  |
+
 Additionally, the Java Class [Film.java](src/main/java/com/kmarinos/sqlutils/examples/Film.java) was created
 to map the sql results.
 
